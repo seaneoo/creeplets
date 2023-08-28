@@ -1,0 +1,48 @@
+{
+    "schemaVersion": 1,
+    "id": "creeplets",
+    "version": "${version}",
+    "name": "Creeplets",
+    "description": "ʰᶦˢˢˢˢˢ",
+    "contact": {
+        "homepage": "https://modrinth.com/mod/creeplets",
+        "sources": "https://github.com/seaneoo/creeplets/",
+        "issues": "https://github.com/seaneoo/creeplets/issues"
+    },
+    "authors": [
+        {
+            "name": "seano",
+            "contact": {
+                "homepage": "https://github.com/seaneoo/",
+                "email": "https://matrix.to/#/@seaneoo:data.haus"
+            }
+        }
+    ],
+    "license": "Unlicense",
+    "icon": "assets/creeplets/icon.png",
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "dev.seano.creeplets.CreepletsMod"
+        ],
+        "client": [
+            "dev.seano.creeplets.CreepletsModClient"
+        ],
+        "fabric-datagen": [
+            "dev.seano.creeplets.CreepletsModDataGenerator"
+        ]
+    },
+    "mixins": [
+        "creeplets.mixins.json",
+        {
+            "config": "creeplets.client.mixins.json",
+            "environment": "client"
+        }
+    ],
+    "depends": {
+        "fabricloader": ">=0.14.22",
+        "minecraft": "~1.20",
+        "java": ">=17",
+        "fabric-api": ">=0.83.0+1.20"
+    }
+}
