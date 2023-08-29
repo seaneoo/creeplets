@@ -1,5 +1,6 @@
 package dev.seano.creeplets;
 
+import dev.seano.creeplets.registry.ModEntities;
 import dev.seano.creeplets.render.CreepletEntityModel;
 import dev.seano.creeplets.render.CreepletEntityRenderer;
 import net.fabricmc.api.ClientModInitializer;
@@ -15,7 +16,7 @@ public class CreepletsModClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        EntityRendererRegistry.register(CreepletsMod.Entities.CREEPLET, ctx -> new CreepletEntityRenderer(ctx, CREEPLET));
+        EntityRendererRegistry.register(ModEntities.CREEPLET, ctx -> new CreepletEntityRenderer(ctx, CREEPLET));
         EntityModelLayerRegistry.registerModelLayer(CREEPLET, CreepletEntityModel::getTexturedModelData);
     }
 
