@@ -1,4 +1,4 @@
 {
-    "entity.creeplets.creeplet": "\u00a7aCreeplet",
-    "item.creeplets.creeplet_spawn_egg": "\u00a7aCreeplet Spawn Egg"
+  "entity.creeplets.creeplet": "Creeplet",
+  "item.creeplets.creeplet_spawn_egg": "Creeplet Spawn Egg"
 }
