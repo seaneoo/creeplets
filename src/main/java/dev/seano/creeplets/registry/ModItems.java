@@ -11,15 +11,19 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 
 public class ModItems {
-    public static final Item CREEPLET_SPAWN_EGG = new SpawnEggItem(ModEntities.CREEPLET, 894731, 0, new FabricItemSettings());
+    public static final Item CREEPLET_SPAWN_EGG = new SpawnEggItem(ModEntities.CREEPLET, 0x47c536
+        , 0x299326, new FabricItemSettings());
 
     public static void register() {
-        Registry.register(Registries.ITEM, CreepletsMod.identifier("creeplet_spawn_egg"), ModItems.CREEPLET_SPAWN_EGG);
+        Registry.register(Registries.ITEM, CreepletsMod.identifier("creeplet_spawn_egg"),
+            ModItems.CREEPLET_SPAWN_EGG);
         registerItemGroups();
     }
 
     private static void registerItemGroups() {
         //noinspection UnstableApiUsage
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS).register(entries -> entries.addAfter(Items.CREEPER_SPAWN_EGG, ModItems.CREEPLET_SPAWN_EGG));
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS)
+            .register(entries -> entries.addAfter(Items.CREEPER_SPAWN_EGG,
+                ModItems.CREEPLET_SPAWN_EGG));
     }
 }
