@@ -18,6 +18,7 @@ The official downloads for Creeplets are:
 ## 🗺️ Roadmap
 
 * [ ] Configuration to change variables such as spawn weight, fuse time, explosion size (v1.1.0)
+* [ ] New variant of TNT that is smaller than normal TNT (v1.0.0)
 
 ## 📸 Images
 
