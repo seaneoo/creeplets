@@ -1,6 +1,7 @@
 [![creeplets](https://raw.githubusercontent.com/seaneoo/creeplets/1.20/.github/creeplets.png?token=GHSAT0AAAAAACGIHUTDFCI6CYBEWJERDCJIZHP3L6A)](https://github.com/seaneoo/creeplets)
 
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/NumdoVsj?style=for-the-badge&logo=modrinth&color=%2300af5c)
+![CurseForge Downloads](https://img.shields.io/curseforge/dt/909087?style=for-the-badge&logo=curseforge&color=%23f16436)
 ![GitHub all releases](https://img.shields.io/github/downloads/seaneoo/creeplets/total?style=for-the-badge&logo=github&logoColor=%23fff&color=%23f1f1f1)
 
 ## 🕹️ Features
@@ -16,6 +17,7 @@ Currently, there's just a lil' guy :-) ([full details](https://github.com/seaneo
 The official downloads for Creeplets are:
 
 * [Modrinth](https://modrinth.com/mod/creeplets/versions)
+* [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/creeplets)
 * [GitHub](https://github.com/seaneoo/creeplets/releases)
 
 ## 🗺️ Roadmap
