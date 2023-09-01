@@ -30,6 +30,9 @@
         ],
         "fabric-datagen": [
             "dev.seano.creeplets.CreepletsModDataGenerator"
+        ],
+        "modmenu": [
+            "dev.seano.creeplets.ModMenuImpl"
         ]
     },
     "mixins": [
@@ -44,5 +47,8 @@
         "minecraft": "~1.20",
         "java": ">=17",
         "fabric-api": ">=0.83.0+1.20"
+    },
+    "suggests": {
+        "modmenu": "*"
     }
 }

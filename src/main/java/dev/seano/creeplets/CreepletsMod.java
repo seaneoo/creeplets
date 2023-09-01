@@ -2,6 +2,7 @@ package dev.seano.creeplets;
 
 import dev.seano.creeplets.registry.ModEntities;
 import dev.seano.creeplets.registry.ModItems;
+import eu.midnightdust.lib.config.MidnightConfig;
 import net.fabricmc.api.ModInitializer;
 import net.minecraft.util.Identifier;
 import org.slf4j.Logger;
@@ -18,6 +19,8 @@ public class CreepletsMod implements ModInitializer {
 
     @Override
     public void onInitialize() {
+        MidnightConfig.init(MOD_ID, CreepletsConfig.class);
+
         ModEntities.register();
         ModItems.register();
     }
