@@ -15,15 +15,11 @@ public class EnglishLangProvider extends FabricLanguageProvider {
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add(ModEntities.CREEPLET, "Creeplet");
         translationBuilder.add(ModItems.CREEPLET_SPAWN_EGG, "Creeplet Spawn Egg");
-        translationBuilder.add("creeplets.midnightconfig.title", "Creeplets Config");
 
-//        try {
-//            String fileName = String.format("assets/%s/lang/en_us.existing.json",
-//                CreepletsMod.MOD_ID);
-//            Optional<Path> existingFilePath = this.dataOutput.getModContainer().findPath(fileName);
-//            if (existingFilePath.isPresent()) translationBuilder.add(existingFilePath.get());
-//        } catch (Exception e) {
-//            throw new RuntimeException("Failed to add existing language file!", e);
-//        }
+        translationBuilder.add("creeplets.midnightconfig.title", "Creeplets Config");
+        translationBuilder.add("creeplets.midnightconfig.spawnWeight", "Spawn weight");
+        translationBuilder.add("creeplets.midnightconfig.fuseTime", "Fuse time");
+        translationBuilder.add("creeplets.midnightconfig.explosionRadius", "Explosion radius");
+        translationBuilder.add("creeplets.midnightconfig.movementSpeed", "Movement speed");
     }
 }

@@ -1,5 +1,6 @@
 package dev.seano.creeplets.registry;
 
+import dev.seano.creeplets.CreepletsConfig;
 import dev.seano.creeplets.CreepletsMod;
 import dev.seano.creeplets.entity.CreepletEntity;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
@@ -25,6 +26,6 @@ public class ModEntities {
 
     private static void registerSpawns() {
         SpawnRestriction.register(CREEPLET, SpawnRestriction.Location.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES, HostileEntity::canSpawnInDark);
-        BiomeModifications.addSpawn(BiomeSelectors.spawnsOneOf(EntityType.CREEPER), SpawnGroup.MONSTER, CREEPLET, 100, 1, 2);
+        BiomeModifications.addSpawn(BiomeSelectors.spawnsOneOf(EntityType.CREEPER), SpawnGroup.MONSTER, CREEPLET, CreepletsConfig.spawnWeight, 1, 2);
     }
 }
