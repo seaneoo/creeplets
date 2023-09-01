@@ -10,8 +10,10 @@ Currently, there's just a lil' guy :-) ([full details](https://github.com/seaneo
 
 ⚠️ Fabric API is **required**. That can be downloaded here: https://modrinth.com/mod/fabric-api.
 
-* Download on [Modrinth](https://modrinth.com/mod/creeplets/versions)
-* Download on [GitHub](https://github.com/seaneoo/creeplets/releases)
+The official downloads for Creeplets are:
+
+* [Modrinth](https://modrinth.com/mod/creeplets/versions)
+* [GitHub](https://github.com/seaneoo/creeplets/releases)
 
 ## 🗺️ Roadmap
 
