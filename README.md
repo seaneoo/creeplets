@@ -1,5 +1,8 @@
 [![creeplets](https://raw.githubusercontent.com/seaneoo/creeplets/1.20/.github/creeplets.png?token=GHSAT0AAAAAACGIHUTDFCI6CYBEWJERDCJIZHP3L6A)](https://github.com/seaneoo/creeplets)
 
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/NumdoVsj?style=for-the-badge&logo=modrinth&color=%2300af5c)
+![GitHub all releases](https://img.shields.io/github/downloads/seaneoo/creeplets/total?style=for-the-badge&logo=github&logoColor=%23fff&color=%23f1f1f1)
+
 ## 🕹️ Features
 
 Currently, there's just a lil' guy :-) ([full details](https://github.com/seaneoo/creeplets/blob/1.20/CHANGELOG.md#v100))
@@ -18,7 +21,7 @@ The official downloads for Creeplets are:
 ## 🗺️ Roadmap
 
 * [ ] Configuration to change variables such as spawn weight, fuse time, explosion size (v1.1.0)
-* [ ] New variant of TNT that is smaller than normal TNT (v1.0.0)
+* [ ] New variant of TNT that is smaller than normal TNT (v1.1.0)
 
 ## 📸 Images
 
