@@ -1,5 +1,6 @@
 package dev.seano.creeplets;
 
+import dev.seano.creeplets.registry.ModBlocks;
 import dev.seano.creeplets.registry.ModEntities;
 import dev.seano.creeplets.registry.ModItems;
 import eu.midnightdust.lib.config.MidnightConfig;
@@ -22,6 +23,7 @@ public class CreepletsMod implements ModInitializer {
         MidnightConfig.init(MOD_ID, CreepletsConfig.class);
 
         ModEntities.register();
+        ModBlocks.register();
         ModItems.register();
     }
 

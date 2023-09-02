@@ -1,5 +1,6 @@
 package dev.seano.creeplets.datagen.lang;
 
+import dev.seano.creeplets.registry.ModBlocks;
 import dev.seano.creeplets.registry.ModEntities;
 import dev.seano.creeplets.registry.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
@@ -14,6 +15,7 @@ public class EnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add(ModEntities.CREEPLET, "Creeplet");
+        translationBuilder.add(ModBlocks.CREEPLET_TNT, "Creeplet TNT");
         translationBuilder.add(ModItems.CREEPLET_SPAWN_EGG, "Creeplet Spawn Egg");
 
         translationBuilder.add("creeplets.midnightconfig.title", "Creeplets Config");
