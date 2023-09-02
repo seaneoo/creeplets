@@ -1,4 +1,5 @@
 {
+  "block.creeplets.creeplet_tnt": "Creeplet TNT",
   "creeplets.midnightconfig.explosionRadius": "Explosion radius",
   "creeplets.midnightconfig.fuseTime": "Fuse time",
   "creeplets.midnightconfig.movementSpeed": "Movement speed",
