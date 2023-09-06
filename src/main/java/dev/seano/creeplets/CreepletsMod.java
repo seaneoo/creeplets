@@ -23,8 +23,8 @@ public class CreepletsMod implements ModInitializer {
         MidnightConfig.init(MOD_ID, CreepletsConfig.class);
 
         ModEntities.init();
-        ModBlocks.register();
-        ModItems.register();
+        ModBlocks.init();
+        ModItems.init();
     }
 
     public static Identifier identifier(String path) {

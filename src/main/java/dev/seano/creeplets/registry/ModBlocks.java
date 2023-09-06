@@ -11,9 +11,16 @@ import net.minecraft.sound.BlockSoundGroup;
 
 public class ModBlocks {
 
-    public static final Block CREEPLET_TNT = new CreepletTntBlock(FabricBlockSettings.create().mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS).burnable().nonOpaque().solidBlock((state, world, pos) -> false));
+    public static final Block CREEPLET_TNT = register("creeplet_tnt",
+            new CreepletTntBlock(FabricBlockSettings.create()
+                    .mapColor(MapColor.BRIGHT_RED).breakInstantly().sounds(BlockSoundGroup.GRASS)
+                    .burnable()
+                    .nonOpaque().solidBlock((state, world, pos) -> false)));
 
-    public static void register() {
-        Registry.register(Registries.BLOCK, CreepletsMod.identifier("creeplet_tnt"), CREEPLET_TNT);
+    public static void init() {}
+
+    public static Block register(String key, Block block) {
+        Registry.register(Registries.BLOCK, CreepletsMod.identifier(key), block);
+        return block;
     }
 }

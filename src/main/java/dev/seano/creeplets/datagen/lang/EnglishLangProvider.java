@@ -17,6 +17,7 @@ public class EnglishLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModEntities.CREEPLET, "Creeplet");
         translationBuilder.add(ModEntities.CREEPLET_TNT, "Primed Creeplet TNT");
         translationBuilder.add(ModBlocks.CREEPLET_TNT, "Creeplet TNT");
+        translationBuilder.add(ModItems.CREEPLET_GUNPOWDER, "Creeplet Gunpowder");
         translationBuilder.add(ModItems.CREEPLET_SPAWN_EGG, "Creeplet Spawn Egg");
 
         translationBuilder.add("creeplets.midnightconfig.title", "Creeplets Config");
