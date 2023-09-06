@@ -22,7 +22,7 @@ public class CreepletsMod implements ModInitializer {
     public void onInitialize() {
         MidnightConfig.init(MOD_ID, CreepletsConfig.class);
 
-        ModEntities.register();
+        ModEntities.init();
         ModBlocks.register();
         ModItems.register();
     }

@@ -4,6 +4,7 @@ import dev.seano.creeplets.registry.ModBlocks;
 import dev.seano.creeplets.registry.ModEntities;
 import dev.seano.creeplets.render.CreepletEntityModel;
 import dev.seano.creeplets.render.CreepletEntityRenderer;
+import dev.seano.creeplets.render.CreepletTntEntityRenderer;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
@@ -19,8 +20,12 @@ public class CreepletsModClient implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
-        EntityRendererRegistry.register(ModEntities.CREEPLET, ctx -> new CreepletEntityRenderer(ctx, CREEPLET));
-        EntityModelLayerRegistry.registerModelLayer(CREEPLET, CreepletEntityModel::getTexturedModelData);
+        EntityRendererRegistry.register(ModEntities.CREEPLET,
+                ctx -> new CreepletEntityRenderer(ctx, CREEPLET));
+        EntityModelLayerRegistry.registerModelLayer(CREEPLET,
+                CreepletEntityModel::getTexturedModelData);
+
+        EntityRendererRegistry.register(ModEntities.CREEPLET_TNT, CreepletTntEntityRenderer::new);
 
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.CREEPLET_TNT, RenderLayer.getCutout());
     }
