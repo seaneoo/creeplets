@@ -6,5 +6,6 @@
   "creeplets.midnightconfig.spawnWeight": "Spawn weight",
   "creeplets.midnightconfig.title": "Creeplets Config",
   "entity.creeplets.creeplet": "Creeplet",
+  "entity.creeplets.creeplet_tnt": "Primed Creeplet TNT",
   "item.creeplets.creeplet_spawn_egg": "Creeplet Spawn Egg"
 }

@@ -15,6 +15,7 @@ public class EnglishLangProvider extends FabricLanguageProvider {
     @Override
     public void generateTranslations(TranslationBuilder translationBuilder) {
         translationBuilder.add(ModEntities.CREEPLET, "Creeplet");
+        translationBuilder.add(ModEntities.CREEPLET_TNT, "Primed Creeplet TNT");
         translationBuilder.add(ModBlocks.CREEPLET_TNT, "Creeplet TNT");
         translationBuilder.add(ModItems.CREEPLET_SPAWN_EGG, "Creeplet Spawn Egg");
 
