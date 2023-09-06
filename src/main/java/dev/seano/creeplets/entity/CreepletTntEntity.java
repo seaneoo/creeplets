@@ -16,7 +16,7 @@ public class CreepletTntEntity extends TntEntity {
 
     private final int fuseTime = 20;
     @SuppressWarnings("FieldCanBeLocal")
-    private final float power = 100f;
+    private final float power = 2f;
     @Nullable
     private LivingEntity causingEntity;
 
