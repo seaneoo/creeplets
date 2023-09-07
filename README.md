@@ -12,18 +12,20 @@ Currently, there's just a lil' guy :-) ([full details](https://github.com/seaneo
 
 ## 📦 Download
 
-⚠️ Fabric API is **required**. That can be downloaded here: https://modrinth.com/mod/fabric-api.
+This mod is compatible with [Fabric](https://fabricmc.net/) and [Quilt](https://quiltmc.org/en/).
 
-The official downloads for Creeplets are:
+⚠️ [Fabric API](https://modrinth.com/mod/fabric-api)/[Quilted Fabric API](https://modrinth.com/mod/qsl) is **required**.
 
-* [Modrinth](https://modrinth.com/mod/creeplets/versions)
-* [CurseForge](https://legacy.curseforge.com/minecraft/mc-mods/creeplets)
+Creeplets is officially available at these locations:
+
+* [Modrinth](https://modrinth.com/mod/creeplets) (recommended)
+* [CurseForge](https://www.curseforge.com/minecraft/mc-mods/creeplets)
 * [GitHub](https://github.com/seaneoo/creeplets/releases)
 
 ## 🗺️ Roadmap
 
-* [ ] Configuration to change variables such as spawn weight, fuse time, explosion size (v1.1.0)
-* [ ] New variant of TNT that is smaller than normal TNT (v1.1.0)
+* [ ] Configuration to change variables such as spawn weight, fuse time, explosion size (v1.1)
+* [ ] New variant of TNT that is smaller than normal TNT (v1.2)
 
 ## 📸 Images
 
