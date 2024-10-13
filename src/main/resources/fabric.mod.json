@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "creeplets",
+  "version": "${version}",
+  "name": "Creeplets",
+  "description": "Clemens, grandis gloss unus captis de rusticus, alter sensorem.",
+  "authors": [
+    {
+      "name": "Sean O'Connor",
+      "contact": {
+        "homepage": "https://seano.dev/",
+        "email": "hey@seano.dev"
+      }
+    }
+  ],
+  "contact": {
+    "sources": "https://github.com/seaneoo/creeplets"
+  },
+  "license": "MIT",
+  "icon": "assets/creeplets/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.seano.creeplets.Creeplets"
+    ],
+    "client": [
+      "dev.seano.creeplets.CreepletsClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.7",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
