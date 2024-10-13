@@ -17,7 +17,7 @@ public class Entities {
 	public static final EntityType<CreepletEntity> CREEPLET = Registry.register(Registries.ENTITY_TYPE,
 		Creeplets.id(CREEPLET_ID), FabricEntityType.Builder.createMob(CreepletEntity::new, SpawnGroup.MONSTER,
 			(mob) -> mob.spawnRestriction(SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
-				HostileEntity::canSpawnInDark)).dimensions(0.3f, 0.85f).build());
+				HostileEntity::canSpawnInDark)).dimensions(0.5f, 1.15f).build());
 
 	public static void init() {
 		Creeplets.LOGGER.info("Initializing entities");
