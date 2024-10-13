@@ -1,5 +1,6 @@
-package dev.seano.creeplets;
+package dev.seano.creeplets.registry;
 
+import dev.seano.creeplets.Creeplets;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.MapColor;
 import net.minecraft.block.TntBlock;

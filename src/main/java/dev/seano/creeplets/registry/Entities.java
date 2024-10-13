@@ -1,5 +1,7 @@
-package dev.seano.creeplets;
+package dev.seano.creeplets.registry;
 
+import dev.seano.creeplets.Creeplets;
+import dev.seano.creeplets.entity.CreepletEntity;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricDefaultAttributeRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.entity.FabricEntityType;
 import net.minecraft.entity.EntityType;

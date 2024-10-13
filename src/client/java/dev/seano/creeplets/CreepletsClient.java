@@ -1,5 +1,8 @@
 package dev.seano.creeplets;
 
+import dev.seano.creeplets.entity.creeplet.CreepletEntityModel;
+import dev.seano.creeplets.entity.creeplet.CreepletEntityRenderer;
+import dev.seano.creeplets.registry.Entities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;

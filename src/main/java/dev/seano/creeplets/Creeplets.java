@@ -1,5 +1,8 @@
 package dev.seano.creeplets;
 
+import dev.seano.creeplets.registry.Blocks;
+import dev.seano.creeplets.registry.Entities;
+import dev.seano.creeplets.registry.Items;
 import me.shedaniel.autoconfig.AutoConfig;
 import me.shedaniel.autoconfig.serializer.JanksonConfigSerializer;
 import net.fabricmc.api.ModInitializer;

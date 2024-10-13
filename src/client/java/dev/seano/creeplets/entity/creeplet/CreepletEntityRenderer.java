@@ -1,5 +1,6 @@
-package dev.seano.creeplets;
+package dev.seano.creeplets.entity.creeplet;
 
+import dev.seano.creeplets.entity.CreepletEntity;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.render.entity.EntityRendererFactory;

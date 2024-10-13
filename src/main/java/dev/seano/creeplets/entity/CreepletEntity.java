@@ -1,5 +1,6 @@
-package dev.seano.creeplets;
+package dev.seano.creeplets.entity;
 
+import dev.seano.creeplets.Creeplets;
 import dev.seano.creeplets.mixin.CreeperEntityAccessor;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;

@@ -1,5 +1,6 @@
-package dev.seano.creeplets;
+package dev.seano.creeplets.registry;
 
+import dev.seano.creeplets.Creeplets;
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
