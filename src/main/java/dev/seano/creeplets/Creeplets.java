@@ -20,5 +20,6 @@ public class Creeplets implements ModInitializer {
 		LOGGER.info("Initializing Creeplets");
 
 		Entities.init();
+		Items.init();
 	}
 }
