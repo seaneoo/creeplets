@@ -27,6 +27,7 @@ public class Creeplets implements ModInitializer {
 		config = AutoConfig.getConfigHolder(CreepletsConfig.class).getConfig();
 
 		Entities.init();
+		Blocks.init();
 		Items.init();
 	}
 }

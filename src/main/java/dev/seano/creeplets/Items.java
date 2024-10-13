@@ -1,6 +1,7 @@
 package dev.seano.creeplets;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.item.SpawnEggItem;
@@ -15,6 +16,9 @@ public class Items {
 	public static final Item UNSTABLE_GUNPOWDER = Registry.register(Registries.ITEM, Creeplets.id("unstable_gunpowder"),
 		new Item(new Item.Settings()));
 
+	public static final BlockItem UNSTABLE_TNT = Registry.register(Registries.ITEM, Creeplets.id("unstable_tnt"),
+		new BlockItem(Blocks.UNSTABLE_TNT, new Item.Settings()));
+
 	public static void init() {
 		Creeplets.LOGGER.info("Initializing items");
 
@@ -25,5 +29,8 @@ public class Items {
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
 			.register(fabricItemGroupEntries -> fabricItemGroupEntries.addAfter(net.minecraft.item.Items.GUNPOWDER,
 				UNSTABLE_GUNPOWDER));
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.REDSTONE)
+			.register(
+				fabricItemGroupEntries -> fabricItemGroupEntries.addAfter(net.minecraft.item.Items.TNT, UNSTABLE_TNT));
 	}
 }
