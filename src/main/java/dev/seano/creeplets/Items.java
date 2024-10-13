@@ -12,6 +12,9 @@ public class Items {
 	public static final Item CREEPLET_SPAWN_EGG = Registry.register(Registries.ITEM, Creeplets.id("creeplet_spawn_egg"),
 		new SpawnEggItem(Entities.CREEPLET, 894731, 0, new Item.Settings()));
 
+	public static final Item UNSTABLE_GUNPOWDER = Registry.register(Registries.ITEM, Creeplets.id("unstable_gunpowder"),
+		new Item(new Item.Settings()));
+
 	public static void init() {
 		Creeplets.LOGGER.info("Initializing items");
 
@@ -19,5 +22,8 @@ public class Items {
 			.register(
 				fabricItemGroupEntries -> fabricItemGroupEntries.addAfter(net.minecraft.item.Items.CREEPER_SPAWN_EGG,
 					CREEPLET_SPAWN_EGG));
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS)
+			.register(fabricItemGroupEntries -> fabricItemGroupEntries.addAfter(net.minecraft.item.Items.GUNPOWDER,
+				UNSTABLE_GUNPOWDER));
 	}
 }

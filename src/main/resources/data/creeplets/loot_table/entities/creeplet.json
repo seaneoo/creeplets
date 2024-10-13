@@ -26,7 +26,7 @@
               "function": "minecraft:enchanted_count_increase"
             }
           ],
-          "name": "minecraft:gunpowder"
+          "name": "creeplets:unstable_gunpowder"
         }
       ],
       "rolls": 1
