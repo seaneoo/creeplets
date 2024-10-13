@@ -1,6 +1,26 @@
+<!--suppress HtmlDeprecatedAttribute -->
 <div align="center">
     <img src=".github/assets/banner.png" alt="Creeplets">
 </div>
+
+## Features
+
+- **New Entity: Creeplet**
+    - Variations from the standard Creeper:
+        - **Fuse Time**: Reduced to 15 seconds.
+        - **Explosion Radius**: Decreased to 2 blocks.
+        - **Movement Speed**: Increased to 0.4.
+        - **Max Health**: Decreased to 10.
+    - **Drops**: 0-2 Unstable Gunpowder upon death.
+
+- **New Item: Unstable Gunpowder**
+    - Dropped by the Creeplet.
+    - Used for crafting Unstable TNT.
+
+- **New Block: Unstable TNT**
+    - Crafted using Unstable Gunpowder.
+        - Follows the same recipe as vanilla TNT, simply replace regular Gunpowder with Unstable Gunpowder.
+    - **Coming Soon**: Will feature a random and configurable explosion size.
 
 ## Configuration
 
