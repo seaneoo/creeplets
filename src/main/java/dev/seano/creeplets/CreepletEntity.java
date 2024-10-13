@@ -1,5 +1,6 @@
 package dev.seano.creeplets;
 
+import dev.seano.creeplets.mixin.CreeperEntityAccessor;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
@@ -9,12 +10,19 @@ import net.minecraft.world.World;
 
 public class CreepletEntity extends CreeperEntity {
 
+	private static final int FUSE_TIME = 15;
+
+	private static final int EXPLOSION_RADIUS = 2;
+
 	private static final double MOVEMENT_SPEED = 0.4;
 
 	private static final double MAX_HEALTH = 10;
 
 	public CreepletEntity(EntityType<? extends CreeperEntity> entityType, World world) {
 		super(entityType, world);
+
+		((CreeperEntityAccessor) this).setFuseTime(FUSE_TIME);
+		((CreeperEntityAccessor) this).setExplosionRadius(EXPLOSION_RADIUS);
 	}
 
 	public static DefaultAttributeContainer.Builder createAttributes() {

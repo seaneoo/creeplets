@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "dev.seano.creeplets.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "CreeperEntityAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
