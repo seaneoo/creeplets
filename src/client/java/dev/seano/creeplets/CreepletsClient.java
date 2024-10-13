@@ -1,10 +1,13 @@
 package dev.seano.creeplets;
 
 import net.fabricmc.api.ClientModInitializer;
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.render.entity.model.EntityModelLayer;
 
+@Environment(EnvType.CLIENT)
 public class CreepletsClient implements ClientModInitializer {
 
 	public static final EntityModelLayer CREEPLET_LAYER = new EntityModelLayer(Creeplets.id(Entities.CREEPLET_ID),
