@@ -1,3 +1,4 @@
+<!--suppress HtmlDeprecatedTag -->
 <center>
 <a href="https://github.com/seaneoo/creeplets">
 <img src=".github/assets/image.png" alt="Creeplets">
