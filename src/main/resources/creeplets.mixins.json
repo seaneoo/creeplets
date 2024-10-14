@@ -3,7 +3,8 @@
   "package": "dev.seano.creeplets.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-    "CreeperEntityAccessor"
+    "CreeperEntityAccessor",
+    "TntEntityMixin"
   ],
   "injectors": {
     "defaultRequire": 1

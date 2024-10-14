@@ -2,6 +2,7 @@ package dev.seano.creeplets;
 
 import dev.seano.creeplets.entity.creeplet.CreepletEntityModel;
 import dev.seano.creeplets.entity.creeplet.CreepletEntityRenderer;
+import dev.seano.creeplets.entity.unstabletnt.UnstableTntEntityRenderer;
 import dev.seano.creeplets.registry.Entities;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.api.EnvType;
@@ -28,5 +29,6 @@ public class CreepletsClient implements ClientModInitializer {
 
 		EntityRendererRegistry.register(Entities.CREEPLET, ctx -> new CreepletEntityRenderer(ctx, CREEPLET_LAYER));
 		EntityModelLayerRegistry.registerModelLayer(CREEPLET_LAYER, CreepletEntityModel::getTexturedModelData);
+		EntityRendererRegistry.register(Entities.UNSTABLE_TNT, UnstableTntEntityRenderer::new);
 	}
 }

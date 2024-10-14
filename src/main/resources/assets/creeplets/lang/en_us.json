@@ -1,5 +1,6 @@
 {
   "entity.creeplets.creeplet": "Creeplet",
+  "entity.creeplets.unstable_tnt": "Unstable TNT",
   "block.creeplets.unstable_tnt": "Unstable TNT",
   "item.creeplets.creeplet_spawn_egg": "Creeplet Spawn Egg",
   "item.creeplets.unstable_gunpowder": "Unstable Gunpowder"
