@@ -1,5 +1,6 @@
 package dev.seano.creeplets.entity;
 
+import dev.seano.creeplets.Creeplets;
 import dev.seano.creeplets.mixin.TntEntityMixin;
 import dev.seano.creeplets.registry.Blocks;
 import dev.seano.creeplets.registry.Entities;
@@ -15,11 +16,11 @@ import org.jetbrains.annotations.Nullable;
 
 public class UnstableTntEntity extends TntEntity {
 
-	public final int fuse = 10;
+	public final int fuse = Creeplets.config.tntFuseTime;
 
-	public final float minPower = 2f;
+	public final float minPower = Creeplets.config.tntMinPower;
 
-	public final float maxPower = 10f;
+	public final float maxPower = Creeplets.config.tntMaxPower;
 
 	public UnstableTntEntity(EntityType<? extends TntEntity> entityType, World world) {
 		super(entityType, world);
