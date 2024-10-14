@@ -14,18 +14,17 @@ import net.minecraft.client.render.entity.model.EntityModelLayer;
 @Environment(EnvType.CLIENT)
 public class CreepletsClient implements ClientModInitializer {
 
-	public static final EntityModelLayer CREEPLET_LAYER = new EntityModelLayer(Creeplets.id(Entities.CREEPLET_ID),
-		"main");
+	public static final EntityModelLayer CREEPLET_LAYER = new EntityModelLayer(Creeplets.id("creeplet"), "main");
 
 	@Override
 	public void onInitializeClient() {
-		Creeplets.LOGGER.info("Initializing Creeplets (Client)");
+		Creeplets.LOGGER.debug("Initializing client-sided Creeplets mod");
 
 		initModelsRenders();
 	}
 
 	private void initModelsRenders() {
-		Creeplets.LOGGER.info("Initializing entity models, renderers");
+		Creeplets.LOGGER.debug("Initializing entity models, renderers");
 
 		EntityRendererRegistry.register(Entities.CREEPLET, ctx -> new CreepletEntityRenderer(ctx, CREEPLET_LAYER));
 		EntityModelLayerRegistry.registerModelLayer(CREEPLET_LAYER, CreepletEntityModel::getTexturedModelData);

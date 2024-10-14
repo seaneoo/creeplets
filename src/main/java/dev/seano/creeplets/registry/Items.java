@@ -21,7 +21,7 @@ public class Items {
 		new BlockItem(Blocks.UNSTABLE_TNT, new Item.Settings()));
 
 	public static void init() {
-		Creeplets.LOGGER.info("Initializing items");
+		Creeplets.LOGGER.debug("Initializing mod items");
 
 		ItemGroupEvents.modifyEntriesEvent(ItemGroups.SPAWN_EGGS)
 			.register(

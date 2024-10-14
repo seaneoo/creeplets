@@ -18,10 +18,8 @@ import net.minecraft.world.Heightmap;
 
 public class Entities {
 
-	public static final String CREEPLET_ID = "creeplet";
-
 	public static final EntityType<CreepletEntity> CREEPLET = Registry.register(Registries.ENTITY_TYPE,
-		Creeplets.id(CREEPLET_ID),
+		Creeplets.id("creeplet"),
 		FabricEntityType.Builder.createMob(CreepletEntity::new, SpawnGroup.MONSTER, (mob) -> mob)
 			.dimensions(0.5f, 1.15f)
 			.build());
@@ -31,14 +29,14 @@ public class Entities {
 		EntityType.Builder.<UnstableTntEntity>create(UnstableTntEntity::new, SpawnGroup.MISC).build());
 
 	public static void init() {
-		Creeplets.LOGGER.info("Initializing entities");
+		Creeplets.LOGGER.debug("Initializing mod entities");
 
 		FabricDefaultAttributeRegistry.register(CREEPLET, CreepletEntity.createAttributes());
 		registerSpawns();
 	}
 
 	private static void registerSpawns() {
-		Creeplets.LOGGER.info("Registering entity spawns");
+		Creeplets.LOGGER.debug("Registering entity spawns");
 
 		SpawnRestriction.register(CREEPLET, SpawnLocationTypes.ON_GROUND, Heightmap.Type.MOTION_BLOCKING_NO_LEAVES,
 			HostileEntity::canSpawnInDark);

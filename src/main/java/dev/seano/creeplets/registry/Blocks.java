@@ -12,6 +12,6 @@ public class Blocks {
 		Creeplets.id("unstable_tnt"), new UnstableTntBlock(AbstractBlock.Settings.create()));
 
 	public static void init() {
-		Creeplets.LOGGER.info("Initializing blocks");
+		Creeplets.LOGGER.debug("Initializing mod blocks");
 	}
 }

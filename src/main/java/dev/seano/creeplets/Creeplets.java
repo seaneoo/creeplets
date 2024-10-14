@@ -24,7 +24,7 @@ public class Creeplets implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-		LOGGER.info("Initializing Creeplets");
+		LOGGER.debug("Initializing Creeplets mod");
 
 		AutoConfig.register(CreepletsConfig.class, JanksonConfigSerializer::new);
 		config = AutoConfig.getConfigHolder(CreepletsConfig.class).getConfig();
