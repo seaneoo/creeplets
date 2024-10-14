@@ -1,6 +1,9 @@
 <!--suppress HtmlDeprecatedAttribute -->
 <div align="center">
     <img src=".github/assets/banner.png" alt="Creeplets">
+    <br/><br/>
+    <img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/NumdoVsj?style=flat&logo=modrinth&logoColor=white&color=00af5c">
+    <img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/909087?style=flat&logo=curseforge&logoColor=white&color=f16436">
 </div>
 
 ## Features
