@@ -1,4 +1,4 @@
-<!--suppress HtmlDeprecatedTag -->
+<!--suppress HtmlDeprecatedTag, XmlDeprecatedElement, HtmlDeprecatedAttribute -->
 <center>
 <a href="https://github.com/seaneoo/creeplets">
 <img src=".github/assets/image.png" alt="Creeplets">
