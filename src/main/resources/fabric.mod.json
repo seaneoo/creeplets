@@ -3,10 +3,10 @@
   "id": "creeplets",
   "version": "${version}",
   "name": "Creeplets",
-  "description": "Clemens, grandis gloss unus captis de rusticus, alter sensorem.",
+  "description": "Because there isn't enough chaos already.",
   "authors": [
     {
-      "name": "Sean O'Connor",
+      "name": "seano",
       "contact": {
         "homepage": "https://seano.dev/",
         "email": "hey@seano.dev"
@@ -14,7 +14,8 @@
     }
   ],
   "contact": {
-    "sources": "https://github.com/seaneoo/creeplets"
+    "sources": "https://github.com/seaneoo/creeplets",
+    "issues": "https://github.com/seaneoo/creeplets/issues"
   },
   "license": "MIT",
   "icon": "assets/creeplets/icon.png",
