@@ -1,12 +1,9 @@
-<!--suppress HtmlDeprecatedAttribute -->
-<div align="center">
-    <img src=".github/assets/banner.png" alt="Creeplets">
-    <br/><br/>
-    <img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/NumdoVsj?style=flat&logo=modrinth&logoColor=white&color=00af5c">
-    <img alt="CurseForge Downloads" src="https://img.shields.io/curseforge/dt/909087?style=flat&logo=curseforge&logoColor=white&color=f16436">
-</div>
+![Creeplets](.github/assets/banner.png)
 
-## Features
+![Modrinth Downloads](https://img.shields.io/modrinth/dt/NumdoVsj?style=for-the-badge&logo=modrinth&logoColor=white&color=00af5c)
+![CurseForge Downloads](https://img.shields.io/curseforge/dt/909087?style=for-the-badge&logo=curseforge&logoColor=white&color=f16436)
+
+## ✨ Features
 
 - **New Entity: Creeplet**
     - Variations from the standard Creeper:
@@ -29,7 +26,7 @@
         - **Power**: Random power from 2 to 10.
     - The fuse time and power are configurable (see below).
 
-## Configuration
+## 🛠️ Configuration
 
 You can customize the attributes of the Creeplet and Unstable TNT by editing the configuration file located at
 `config/creeplets.json5`.
@@ -55,6 +52,6 @@ The default configuration is as follows:
 }
 ```
 
-## License
+## 📜 License
 
 [MIT](LICENSE)
