@@ -1,17 +1,15 @@
 <!--suppress HtmlDeprecatedTag, XmlDeprecatedElement, HtmlDeprecatedAttribute -->
-<center>
+<div align="center">
 <a href="https://github.com/seaneoo/creeplets">
-<img src=".github/assets/image.png" alt="Creeplets">
+<img src=".github/assets/image.png" alt="Creeplets" width="100%">
 </a>
-</center>
+</div>
 
-<img src=".github/assets/linebreak.png" alt="">
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-<center>
-<font size="5">
-<strong>Features</strong>
-</font>
-</center>
+<div align="center">
+<h2>Features</h2>
+</div>
 <font size="3">
 <ul>
 <li>The <i>Creeplet</i> hostile mob! This new mob is a smaller, faster, and less explosive version of the Creeper.</li>
@@ -22,13 +20,11 @@
 </ul>
 </font>
 
-<img src=".github/assets/linebreak.png" alt="">
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-<center>
-<font size="5">
-<strong>Installation</strong>
-</font>
-</center>
+<div align="center">
+<h2>Installation</h2>
+</div>
 <font size="3">
 <ul>
 <li>Install the <a href="https://fabricmc.net/">Fabric Loader</a>.</li>
@@ -38,13 +34,11 @@
 </ul>
 </font>
 
-<img src=".github/assets/linebreak.png" alt="">
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-<center>
-<font size="5">
-<strong>Configuration</strong>
-</font>
-</center>
+<div align="center">
+<h2>Configuration</h2>
+</div>
 <br/>
 <font size="3">Each attribute of the Creeplet and Unstable TNT can be configured. The config can be accessed with Mod Menu or in your <i>config</i> folder.</font>
 <pre>
@@ -66,12 +60,12 @@
 }
 </pre>
 
-<img src=".github/assets/linebreak.png" alt="">
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-<center><font size="3"><strong>The Creeplet!</strong></font></center>
-<img src=".github/assets/2024-10-14_09.47.23.png" alt="">
+<div align="center"><h3>The Creeplet!</h3></div>
+<img src=".github/assets/2024-10-14_09.47.23.png" alt="" width="100%">
 
-<img src=".github/assets/linebreak.png" alt="">
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-<center><font size="3"><strong>The Unstable TNT & Unstable Gunpowder!</strong></font></center>
-<img src=".github/assets/2024-10-14_09.46.47.png" alt="">
+<div align="center"><h3>The Unstable TNT & Unstable Gunpowder!</h3></div>
+<img src=".github/assets/2024-10-14_09.46.47.png" alt="" width="100%">
