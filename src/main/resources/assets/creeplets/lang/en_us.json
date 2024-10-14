@@ -3,5 +3,12 @@
   "entity.creeplets.unstable_tnt": "Unstable TNT",
   "block.creeplets.unstable_tnt": "Unstable TNT",
   "item.creeplets.creeplet_spawn_egg": "Creeplet Spawn Egg",
-  "item.creeplets.unstable_gunpowder": "Unstable Gunpowder"
+  "item.creeplets.unstable_gunpowder": "Unstable Gunpowder",
+  "text.autoconfig.creeplets.option.fuseTime": "Creeplet Fuse Time",
+  "text.autoconfig.creeplets.option.explosionRadius": "Creeplet Explosion Radius",
+  "text.autoconfig.creeplets.option.movementSpeed": "Creeplet Movement Speed",
+  "text.autoconfig.creeplets.option.maxHealth": "Creeplet Max Health",
+  "text.autoconfig.creeplets.option.tntFuseTime": "Unstable TNT Fuse Time",
+  "text.autoconfig.creeplets.option.tntMinPower": "Unstable TNT Min. Power",
+  "text.autoconfig.creeplets.option.tntMaxPower": "Unstable TNT Max. Power"
 }

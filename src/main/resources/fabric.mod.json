@@ -26,6 +26,9 @@
     ],
     "client": [
       "dev.seano.creeplets.CreepletsClient"
+    ],
+    "modmenu": [
+      "dev.seano.creeplets.CreepletsModMenu"
     ]
   },
   "mixins": [
@@ -37,5 +40,8 @@
     "java": ">=21",
     "fabric-api": "*",
     "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
   }
 }
