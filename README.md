@@ -1,48 +1,47 @@
-![Creeplets](.github/assets/banner.png)
+<!--suppress HtmlDeprecatedTag, XmlDeprecatedElement, HtmlDeprecatedAttribute -->
+<div align="center">
+<a href="https://github.com/seaneoo/creeplets">
+<img src=".github/assets/image.png" alt="Creeplets" width="100%">
+</a>
+</div>
 
-## 💾 Download
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-[![Modrinth Downloads](https://img.shields.io/modrinth/dt/NumdoVsj?style=flat&logo=modrinth&logoColor=white&color=00af5c)](https://modrinth.com/mod/creeplets)
-[![CurseForge Downloads](https://img.shields.io/curseforge/dt/909087?style=flat&logo=curseforge&logoColor=white&color=f16436)](https://www.curseforge.com/minecraft/mc-mods/creeplets)
+<div align="center">
+<h2>Features</h2>
+</div>
+<font size="3">
+<ul>
+<li>The <i>Creeplet</i> hostile mob! This new mob is a smaller, faster, and less explosive version of the Creeper.</li>
+<li>The Creeplet will spawn in groups of 2 to 3, anywhere the Creeper spawns.</li>
+<li>Drops <i>Unstable Gunpowder</i> when killed.</li>
+<li>The Unstable Gunpowder is used to craft the new <i>Unstable TNT</i> block.</li>
+<li>The Unstable TNT explodes faster and more variable than TNT.</li>
+</ul>
+</font>
 
-### Requirements
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-- Minecraft 1.21.x
-- [Fabric Loader](https://fabricmc.net/use/installer/)
-- [Fabric API](https://modrinth.com/mod/fabric-api)
-- [Cloth Config](https://modrinth.com/mod/cloth-config)
+<div align="center">
+<h2>Installation</h2>
+</div>
+<font size="3">
+<ul>
+<li>Install the <a href="https://fabricmc.net/">Fabric Loader</a>.</li>
+<li>Download <a href="https://modrinth.com/mod/fabric-api">Fabric API</a> & <a href="https://modrinth.com/mod/cloth-config">Cloth Config</a>.</li>
+<li><a href="https://modrinth.com/mod/creeplets/versions">Download Creeplets</a>.</li>
+<li>Put all three mods into your <i>mods</i> folder.</li>
+</ul>
+</font>
 
-## ✨ Features
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-- **New Entity: Creeplet**
-    - Variations from the standard Creeper:
-        - **Fuse Time**: Reduced to 10 seconds.
-        - **Explosion Radius**: Decreased to 2 blocks.
-        - **Movement Speed**: Increased to 0.5.
-        - **Max Health**: Decreased to 10.
-    - **Drops**: 0-2 Unstable Gunpowder upon death.
-    - The fuse time, explosion radius, movement speed, and maximum health are configurable (see below).
-
-- **New Item: Unstable Gunpowder**
-    - Dropped by the Creeplet.
-    - Used for crafting Unstable TNT.
-
-- **New Block: Unstable TNT**
-    - Crafted using Unstable Gunpowder.
-        - Follows the same recipe as vanilla TNT, simply replace regular Gunpowder with Unstable Gunpowder.
-    - Variations from the standard TNT:
-        - **Fuse Time**: Reduced to 10 seconds.
-        - **Power**: Random power from 2 to 10.
-    - The fuse time and power are configurable (see below).
-
-## 🛠️ Configuration
-
-You can customize the attributes of the Creeplet and Unstable TNT by editing the configuration file located at
-`config/creeplets.json5`.
-
-The default configuration is as follows:
-
-```json5
+<div align="center">
+<h2>Configuration</h2>
+</div>
+<br/>
+<font size="3">Each attribute of the Creeplet and Unstable TNT can be configured. The config can be accessed with Mod Menu or in your <i>config</i> folder.</font>
+<pre>
 {
   // The time it takes for the Creeplet to explode. Default for vanilla Creeper is '30'.
   "fuseTime": 10,
@@ -59,16 +58,14 @@ The default configuration is as follows:
   // The maximum power of the Unstable TNT. Vanilla TNT explodes at a power of '4'.
   "tntMaxPower": 10.0
 }
-```
+</pre>
 
-## 📷 Screenshots
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-![Creeplet](.github/assets/2024-10-14_09.47.23.png)
+<div align="center"><h3>The Creeplet!</h3></div>
+<img src=".github/assets/2024-10-14_09.47.23.png" alt="" width="100%">
 
-![Creeplet exploding](.github/assets/creeplet.gif)
+<img src=".github/assets/linebreak.png" alt="" width="100%">
 
-![Unstable TNT & Unstable Gunpowder](.github/assets/2024-10-14_09.46.47.png)
-
-## 📜 License
-
-[MIT](LICENSE)
+<div align="center"><h3>The Unstable TNT & Unstable Gunpowder!</h3></div>
+<img src=".github/assets/2024-10-14_09.46.47.png" alt="" width="100%">
