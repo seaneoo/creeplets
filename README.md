@@ -61,6 +61,14 @@ The default configuration is as follows:
 }
 ```
 
+## 📷 Screenshots
+
+![Creeplet](.github/assets/2024-10-14_09.47.23.png)
+
+![Creeplet exploding](.github/assets/creeplet.gif)
+
+![Unstable TNT & Unstable Gunpowder](.github/assets/2024-10-14_09.46.47.png)
+
 ## 📜 License
 
 [MIT](LICENSE)
