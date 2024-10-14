@@ -1,7 +1,16 @@
 ![Creeplets](.github/assets/banner.png)
 
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/NumdoVsj?style=for-the-badge&logo=modrinth&logoColor=white&color=00af5c)
-![CurseForge Downloads](https://img.shields.io/curseforge/dt/909087?style=for-the-badge&logo=curseforge&logoColor=white&color=f16436)
+## 💾 Download
+
+[![Modrinth Downloads](https://img.shields.io/modrinth/dt/NumdoVsj?style=flat&logo=modrinth&logoColor=white&color=00af5c)](https://modrinth.com/mod/creeplets)
+[![CurseForge Downloads](https://img.shields.io/curseforge/dt/909087?style=flat&logo=curseforge&logoColor=white&color=f16436)](https://www.curseforge.com/minecraft/mc-mods/creeplets)
+
+### Requirements
+
+- Minecraft 1.21.x
+- [Fabric Loader](https://fabricmc.net/use/installer/)
+- [Fabric API](https://modrinth.com/mod/fabric-api)
+- [Cloth Config](https://modrinth.com/mod/cloth-config)
 
 ## ✨ Features
 
