@@ -14,14 +14,14 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
-@Mod(Creeplets.MOD_ID)
-public class Creeplets {
+@Mod(CreepletsMod.MOD_ID)
+public class CreepletsMod {
 
 	public static final String MOD_ID = "creeplets";
 
 	public static final Logger LOGGER = LogUtils.getLogger();
 
-	public Creeplets() {
+	public CreepletsMod() {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		Entities.register(modEventBus);
 		modEventBus.addListener(this::commonSetup);
