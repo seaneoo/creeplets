@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "dev.seano.creeplets.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "creeplets.refmap.json",
+  "minVersion": "0.8",
+  "mixins": [
+    "CreeperAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
