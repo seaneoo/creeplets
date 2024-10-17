@@ -2,6 +2,7 @@ package dev.seano.creeplets;
 
 import com.mojang.logging.LogUtils;
 import dev.seano.creeplets.client.CreepletRenderer;
+import dev.seano.creeplets.registry.BiomeModifiers;
 import dev.seano.creeplets.registry.Entities;
 import net.minecraft.client.renderer.entity.EntityRenderers;
 import net.minecraftforge.api.distmarker.Dist;
@@ -24,6 +25,7 @@ public class CreepletsMod {
 	public CreepletsMod() {
 		IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 		Entities.register(modEventBus);
+		BiomeModifiers.register(modEventBus);
 		modEventBus.addListener(this::commonSetup);
 
 		MinecraftForge.EVENT_BUS.register(this);
